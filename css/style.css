@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-transform: uppercase;
+    background-color: #e2e7ec;
+    padding: 90px 215px;
+    max-width: 1600px;
+    height: 1400px;
+}
+
+p {
+    color: #69575d;
+}
+
+.topic-1 img {
+    width: 740;
+    height: 540;
+    margin: 10px;
+}
+
+.past-topics {
+    background-color: #ffffff;
+    width: 360px;
+    height: 540px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.past-topics+img {
+    height: 250px;
+}
+
+.autor {
+    display: flex;
+    align-items: flex-end;
+}
