@@ -1,43 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e2e7ec;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
+    align-items: center;
     text-transform: uppercase;
-    background-color: #e2e7ec;
-    padding: 90px 215px;
-    max-width: 1600px;
-    height: 1400px;
+    width: 1140px;
+    margin-top: 85px;
 }
 
-p {
-    color: #69575d;
-}
-
-.topic-1 img {
-    width: 740;
-    height: 540;
+.topics {
+    display: flex;
+    flex-direction: column;
     margin: 10px;
+}
+
+.wrapper>div:first-child {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    background-color: #000000;
+    background-image: url('../img/Topic-1.png');
+    color: #ffffff;
+    width: 740px;
+    height: 540px;
+}
+
+.car-title {
+    margin: 0 260px 40px 30px;
 }
 
 .past-topics {
     background-color: #ffffff;
     width: 360px;
     height: 540px;
-    margin: 10px;
-    padding: 30px;
+    padding: 0;
 }
 
 .past-topics+img {
     height: 250px;
 }
 
+h1,
+h3 {
+    font-family: "Special Elite", serif;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+p {
+    font-family: "Roboto Mono", serif;
+    color: #B4B4B4;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
 .autor {
-    display: flex;
-    align-items: flex-end;
+    margin: 70px 0 25px 30px;
+    width: 56px;
+    height: 56px;
 }
